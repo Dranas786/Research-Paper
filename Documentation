@@ -1,0 +1,30 @@
+Documentation:
+
+Main analysis : Emotion_action_analysis
+Main jupyter file which contains all the code which our result is based on, the data we work with is discussed below.
+Data:
+1.	Park_tweet_csv_file : 10000 tweets with emotions (original dataset)
+2.	Sample datasets : 4 sample datasets with random tweets from “Park_tweet_csv_file” which were annotated by research assistants.
+
+Emotions_action_analysis_test
+Testing various methods and finding various correlation without messing with the original dataset.
+Threats to validity
+
+Emotions_action_analysis_bhadreshi
+A complete copy of the main analysis but we used a different pipeline to find emotions so we can deal with that discrepancy.
+Data:
+•	Data normalized : Normalized data from the sample datasets discussed earlier.
+
+motivation_example_emotion_analysis
+Randomly sampled a set of 300 tweets which were annotated by 1 annotator. Was intended to use as an example of the result working but we observed that majority of the fearful tweets were news related which lead it to being a threat to validity.
+
+News_emotion_analysis
+Found out that in a random set of news related tweets, the distribution of emotions is nothing out of the ordinary and was part of the motivation_example_emotion_analysis file.
+
+Illustrative example
+Tried implementing the methodology on a dataset containing an overwhelming amount of tweets of one emotion as a case of threat to validity.
+Data:
+•	3 files containing tweets from 3 clusters which were overwhelmingly joyful.
+•	Data normalized which contains all the normalized data and merges all the files.
+
+
